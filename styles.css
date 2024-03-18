@@ -11,6 +11,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: right;
+
+    justify-content: right;
 }
 
 .box{
@@ -19,7 +22,9 @@ body{
     border-radius: 50%
     background: #6495ed;
     position: relative;
-    text-align: right;
+ text-align: center;
+
+    justify-content: center;
 }
 .box span{
     position: absolute;
