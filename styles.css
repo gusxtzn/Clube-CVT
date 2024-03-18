@@ -39,3 +39,15 @@ body{
     animation: anim3 4s infinite;
 }
 
+@keyframes anim{
+    0%,100%{transform: rotate(0deg);}
+    50%{transform: rotate(360deg);}
+}
+@keyframes anim2{
+    0%,100%{transform: rotate(-60deg);}
+    50%{transform: rotate(-300deg);}
+}
+@keyframes anim3{
+    0%,100%{transform: rotate(60deg);}
+    50%{transform: rotate(300deg);}
+}
